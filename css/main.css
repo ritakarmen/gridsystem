@@ -1,0 +1,107 @@
+/* Inserta tu código aqui */
+a {
+	color: black;
+}
+p{
+	font-size: 1em;
+}
+.container-fluid{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.nav{
+	padding-top: 2%;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: white;
+}
+.webz{
+	background: black;
+	color: white;
+	padding: 1%;
+}
+hr{
+	width: 100%;
+	height: 2px;
+	background: #f8f8f8;
+}
+.cajaseccion{
+	text-align: justify;
+}
+.lineanegra{
+	width: 100%;
+	height: 4px;
+	background: grey;
+}
+.imagen{
+	width: 100%;
+	height: 280px;
+	background: #AAAAAA;
+	text-align: center;
+	padding-top: 20%;
+	margin-bottom: 2%;
+}
+.cajaploma{
+	margin: 3% 0 3% 0;
+	width: 180px;
+	height: 8%;
+	padding: 1% 1% 0;
+	background: grey;
+	color: white;
+	font-size: 1.3em;
+}
+.cajavideo{
+	width: 100%;
+	height: 450px;
+	background: #f8f8f8;
+	padding: 2%;
+	margin: 4% 0 2% 0;
+}
+video{
+	padding-top: 5%;
+}
+.textderecha{
+	padding-left: 30%;
+}
+.cajafecha{
+	width: 15%;
+	background: #AAAAAA;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+.cajacomentario{
+	width: 80%;
+	font-size: 0.8em;
+	float: left;
+	padding-left: 2%;
+}
+ul{
+	list-style: none;
+	padding-left: 4%;
+}
+.cajamagazine{
+	background: #f8f8f8;
+	padding: 2%;
+	margin-top: 3%;
+}
+.listafooter{
+	width: 20%;
+	height: 200px;
+	float: left;
+	font-weight: bold;
+}
+.listafooter p{
+	padding-left: 4%;
+}
+@media screen and (min-width:400px) and (max-width:600px){
+.listafooter.col-md-3, .listafooter.col-lg-3 {
+	font-size: 11px;
+	width: 50%;
+	}
+.cajavideo{
+	font-size: 11px;
+	margin-top: 50px;
+	}
+}
